@@ -35,7 +35,7 @@ The dataset in the data folder includes three json files:
  * profile.json: demographic data for each customer
  * transcript.json: records for transactions, offers received, offers viewed, and offers completed
 
-The code is in the 【jupyter notebook](https://github.com/dongzhang84/Starbucks_Capstone_Challenge/blob/master/Starbucks_Capstone_notebook.ipynb)
+The code is in the [jupyter notebook](https://github.com/dongzhang84/Starbucks_Capstone_Challenge/blob/master/Starbucks_Capstone_notebook.ipynb)
 
 
 ### Libraries 
