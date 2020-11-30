@@ -26,7 +26,7 @@ Supervised classification models were built and most accuracy model was selected
 - Weighted F1 score
 - ROC AUC score
 
-
+---------------------
 
 ### Files in the Repo
 
@@ -36,6 +36,8 @@ The dataset in the data folder includes three json files:
  * transcript.json: records for transactions, offers received, offers viewed, and offers completed
 
 The code is in the [jupyter notebook](https://github.com/dongzhang84/Starbucks_Capstone_Challenge/blob/master/Starbucks_Capstone_notebook.ipynb).
+
+---------------------
 
 
 ### Libraries 
@@ -51,7 +53,7 @@ This project used Python 3.8.2 with its update-to-date libraries, including:
     lightgbm
     xgboost
 
-
+---------------------
 
 
 ### Conclusions
@@ -74,9 +76,13 @@ The machine learning model gives a predictor for individual customer to complete
 More discussion see my medium blog.
 
 
+---------------------
+
 ### Acknowledgements
 
 I thank Udacity and Starbucks to provide the simulated dataset.
+
+---------------------
 
 
 ### Blog
