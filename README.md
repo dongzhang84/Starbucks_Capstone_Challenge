@@ -1,18 +1,10 @@
 # Starbucks Capstone Challenge
 
-### Introduction:
+### Motivation:
 
 This is a capstone project of the Udacity data science nanodegree program. This dataset contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
 
-### Dataset
-
-The dataset includes three json files:
- * portfolio.json: containing offer ids and meta data about each offer (duration, type, etc.)
- * profile.json: demographic data for each customer
- * transcript.json: records for transactions, offers received, offers viewed, and offers completed
-
-
-### Problem Statement
+**Problem Statement**
 
 The primary problem I would like to look into is how likely a customer received an offer will complete it. In order to understand this question, I am building a supervised machine learning classification model based on the offer portfolio and demographics information. 
 
@@ -37,6 +29,33 @@ Supervised classification models were built and most accuracy model was selected
 - ROC AUC score
 
 
+
+### Files in the Repo
+
+The dataset in the data folder includes three json files:
+ * portfolio.json: containing offer ids and meta data about each offer (duration, type, etc.)
+ * profile.json: demographic data for each customer
+ * transcript.json: records for transactions, offers received, offers viewed, and offers completed
+
+The code is in the jupyter [notebook](https://github.com/dongzhang84/Starbucks_Capstone_Challenge/blob/master/Starbucks_Capstone_notebook.ipynb)
+
+
+### Libraries 
+
+This project used Python 3.8.2 with its update-to-date libraries, including:
+
+    numpy
+    pandas
+    datetime
+    matplotlib
+    seaborn
+    sklearn
+    lightgbm
+    xgboost
+
+
+
+
 ### Conclusions
 
 I delivered a series of analytic results, and built a model to predict if an offer will be completed by a customer. 
@@ -53,6 +72,11 @@ Also I found that younger people, people with lower salaries, relatively new mem
 **Predictor Model**
 
 The machine learning model gives a predictor for individual customer to complete an offer. The difficulty level, income, age, channel and offer types tare among the topic importance for the model. The model accuracy (F1 score) is $\sim$0.8. So far the offer completed rate is 0.46, the predictor with much higher probability to target individual customer helps Starbucks to significantly increase customers' offer completed rate.
+
+
+### Acknowledgements
+
+I thank Udacity and Starbucks to provide the simulated dataset.
 
 
 ### Blog
