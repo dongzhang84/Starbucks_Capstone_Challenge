@@ -69,7 +69,7 @@ Also I found that younger people, people with lower salaries, relatively new mem
 
 **Predictor Model**
 
-The machine learning model gives a predictor for individual customer to complete an offer. The difficulty level, income, age, channel and offer type are among the topic importance for the model. The model accuracy (F1 score) is $\sim$0.8. So far the offer completed rate is 0.46, the predictor with much higher probability to target individual customer helps Starbucks to significantly increase customers' offer completed rate.
+The machine learning model gives a predictor for individual customer to complete an offer. The difficulty level, income, age, channel and offer type are among the topic importance for the model. The model accuracy (F1 score) is ~ 0.8. So far the offer completed rate is 0.46, the predictor with much higher probability to target individual customer helps Starbucks to significantly increase customers' offer completed rate.
 
 
 ### Acknowledgements
