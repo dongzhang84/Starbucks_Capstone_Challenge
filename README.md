@@ -10,8 +10,8 @@ The primary problem I would like to look into is how likely a customer received 
 
 Before working on the modeling, more questions need to be asked to better understand the data. Here, I list five questions I explored:
 
- * What is the relation between the offer viewed/completed rate and offer difficulty level?
- * What is the relation between the offer viewed/completed rate and offer duration?
+ * What is the relation between offer viewed/completed rate and offer difficulty level?
+ * What is the relation between offer viewed/completed rate and offer duration?
  * Is there any correlation between offer types and offer completed rate?
  * For individual customers, what are the relations between customer age, income, membership duration, and offer completed rate?
  * Is customer gender important for offer completed rate?
@@ -35,7 +35,7 @@ The dataset in the data folder includes three json files:
  * profile.json: demographic data for each customer
  * transcript.json: records for transactions, offers received, offers viewed, and offers completed
 
-The code is in this [jupyter notebook](https://github.com/dongzhang84/Starbucks_Capstone_Challenge/blob/master/Starbucks_Capstone_notebook.ipynb).
+The code is in the [jupyter notebook](https://github.com/dongzhang84/Starbucks_Capstone_Challenge/blob/master/Starbucks_Capstone_notebook.ipynb)
 
 
 ### Libraries 
@@ -69,7 +69,9 @@ Also I found that younger people, people with lower salaries, relatively new mem
 
 **Predictor Model**
 
-The machine learning model gives a predictor for individual customer to complete an offer. The difficulty level, income, age, channel and offer type are among the topic importance for the model. The model accuracy (F1 score) is ~ 0.8. So far the offer completed rate is 0.46, the predictor with much higher probability to target individual customer helps Starbucks to significantly increase customers' offer completed rate.
+The machine learning model gives a predictor for individual customer to complete an offer. The difficulty level, income, age, channel and offer type are among the topic importance for the model. The model accuracy (F1 score) is ~ 0.8. So far the offer completed rate is 0.46. The predictor has much higher probability to target potential customers who can complete offers, and helps Starbucks to significantly increase offer completed rate.
+
+More discussion see my medium blog.
 
 
 ### Acknowledgements
