@@ -31,7 +31,7 @@ Supervised classification models were built and most accuracy model was selected
 
 This problem is a supervised classification machine learning problem. The labels with binary values are pretty balanced (27,280 as zero and 27,942 as one), so I first used confusion matrix, in particular, precision and recall to measure the model accuracy. Note that for balanced labels, precision and recall of both label values need to be looked into. 
 
-To simplify the metrics, since I found the values of precision and recall for this problem are similar, I used the weighted F1-score, which are the combination of precision and recall to measure the model accuracy. On the other hand, ROC-AUC curves help to evaluate the performance of various classifiers, I also used ROC-AUC scores as another metric to evaluate the classifier accuracy. 
+To simplify the metrics, since I found the values of precision and recall for this problem are similar, I used the weighted F1-score, which is the combination of precision and recall to measure the model accuracy. On the other hand, ROC-AUC curves help to evaluate the performance of various classifiers, I also used ROC-AUC scores as another metric to evaluate the classifier accuracy. 
 
 
 ---------------------
